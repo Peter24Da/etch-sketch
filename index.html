@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Etch-a-Sketch</title>
     <script src="etsk.js" defer></script>
     <link rel="stylesheet" href="style.css"><link>
 </head>
 <body>
+    <form></form>
+    <label for="size">Size:</label>
+    <input type="number" id="size" name="size" value="16"  min="1" max="100">
+    <input for="size" type="button" value="Submit">
+    <span>
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color">  
+        <label for="transition">Transition:</label>
+        <input type="checkbox" name="transition" id="transition">
+    </span>
+    <br><br>
+
     <div id="container" class="container"></div>
     
 </body>
