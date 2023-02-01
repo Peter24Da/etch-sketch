@@ -2,16 +2,19 @@
     border-width: 1px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
-    width: 480px;
-    height: 480px;
     display: flex;
     flex-wrap: wrap;
 }
 
+.dimension {
+    width: 112px;
+    height: 112px;
+}
+
 .grid {
-    width: 28px;
-    height: 28px;
-    border-width: 1px;
+    width: 7px;
+    height: 7px;
+    border-width: 0px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
     
